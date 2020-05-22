@@ -8,25 +8,30 @@ body {
 	color: #fff;
 	background-color: #264653;
 }
+.bg {
+	position: fixed;
+}
 .container {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -80%);
-	width: 90%;
+	width: 80%;
 }
 .heading {
-	font-size: 25px;
+	display: none;
+	font-size: 170%;
 	width: 100%;
 	margin: auto;
 	text-align: center;
-	padding-top: 70px;
+	padding-top: 60vh;
 }
 p {
 	padding: 8px;
 }
 
 header {
+	display: none;
 	background-color: #2a9d8f;
 	position: fixed;
 	width: 100%;
@@ -46,16 +51,18 @@ header .right {
 	margin-right: 20px;
 }
 .buttons {
-
+	display: none;
 	width: 100%;
 	margin: auto;
+	padding-top: 2vh;
 	//background-color: red;
 	text-align: center;
 }
 .button {
 	display: inline-block;
 	color: white;
-	margin: 1%;
+	cursor: pointer;
+	margin: 2%;
 	height: 50px;
 	width: 200px;
 	border: 2px solid white;
@@ -64,15 +71,12 @@ header .right {
 	font-size: 16px;
 	background-color: rgba(0,0,0,0);
 	border-radius: 8px;
-	transition: all 0.5s ease;
+	transition: all 0.3s ease;
 }
 
 .button:hover {
 	background-color: white;
 	color: black;
+	//box-shadow: 0 0 20px #abfff5;
 }
-
-
-
-
 
