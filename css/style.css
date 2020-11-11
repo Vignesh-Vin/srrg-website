@@ -32,7 +32,7 @@ p {
 
 header {
 	display: none;
-	background-color: #2a9d8f;
+	background-color: #23857A;
 	position: fixed;
 	width: 100%;
 }
@@ -40,14 +40,12 @@ header {
 header .logo {
 	float: left;
 	left: 0px;
-	//background-color: red;
 	padding: 10px;
 	margin-left: 20px;
 }
 header .right {	
 	padding: 10px;
 	float: right;
-	//background-color: red;
 	margin-right: 20px;
 }
 .buttons {
@@ -55,21 +53,22 @@ header .right {
 	width: 100%;
 	margin: auto;
 	padding-top: 2vh;
-	//background-color: red;
 	text-align: center;
 }
 .button {
+	font-family: 'Poppins', sans-serif;
 	display: inline-block;
 	color: white;
 	cursor: pointer;
 	margin: 2%;
 	height: 50px;
 	width: 200px;
-	border: 2px solid white;
+	border: 0px solid white;
 	text-align: center;
 	text-decoration: none;
 	font-size: 16px;
-	background-color: rgba(0,0,0,0);
+	/*background-color: #264653;*/
+	background-color: #23857A;
 	border-radius: 8px;
 	transition: all 0.3s ease;
 }
@@ -77,6 +76,6 @@ header .right {
 .button:hover {
 	background-color: white;
 	color: black;
-	//box-shadow: 0 0 20px #abfff5;
+
 }
 
